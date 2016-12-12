@@ -1,0 +1,18 @@
+﻿.element {
+  color: red;
+  /*keyframe name*/
+  animation-name: SFF-title;
+  animation-duration: 5s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+@keyframes SFF-title {
+  0% {color: red;}
+  50%{color: green;}
+  100%{color: blue;}
+}
